@@ -18,9 +18,11 @@ ol{
 
 #parrafoprincipal{
                 color: blueviolet;
+                background-color: aquamarine;
 }
 
-.parrafoimg{
+.parrafoImg{
             color: aqua;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: blueviolet;
 }
