@@ -41,10 +41,13 @@
 }
 h1{
     color: antiquewhite;
+    text-align: center;
     
 }
 
 p{
 color: gold;
+text-align: right;
 
 }
+ 
