@@ -2,31 +2,40 @@
     display: flex;
     flex-direction:row;
     width: 100%;
-     margin-top: 1;
+     margin-top: 5;
     border: 3px black solid;
     box-shadow: 10px 10px 5px black;
-    justify-content:space-between
-    
+    justify-content:space-between;
+   
+    background-color: gray;  
 
 }
 .encabezado{
     display: inline-flex;
     align-items:flex-start;
-    width: auto;
+    width: 20%;
+    
+    height: 5%;
+   padding: 1%;
+    flex-grow: 3 ;
     margin-bottom: 10%;
-    background-color: beige;  
+    background-color: gray;  
 }
 
 .boton1{
     display: inline-flex; 
+    align-items:flex-start;
     width: 15%;
-    height: 15%;
-   padding: 4%;
-   padding-left:100 %;
-  
+    height: 5%;
+   padding: 1%;
+    padding-right: 15%;
+   flex-wrap: wrap;
+   
+   flex-grow: 1;
+   
+   
+   background-color: green;  
    border-style:groove;
-   box-shadow: -3px -3px 5px black inset;
-  
 
 
 
@@ -35,42 +44,23 @@
 .padre-boton{
 
     display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-end;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: flex-start;
     
-    margin-top: 1;
-    width: 70%;
+    
+
+    
+   
 }
 .boton{
-    display: inline-flex; 
-     width: 15%;
-     height: 10%;
-    padding: 4%;
-    padding-right:70 %;
-   
-    border-style:groove;
-    box-shadow: -3px -3px 5px black inset;
-    flex-grow: 3 ;
-
-   
+ 
 
 }
 
 .logo{
-    display: inline-flex; 
-    width: 15%;
-    height: 10%;
-   padding: 4%;
-   padding-left:50 %;
-   text-align: center;
-   border-style: groove;
-   box-shadow: -3px -3px 5px black inset;
-   flex-grow: 1 ;
-
+  
    
-
 }
 
 
@@ -78,7 +68,7 @@
 
     display: flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:flex-end;
    
     
@@ -100,7 +90,7 @@
 .padre3{
     display: flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     margin-top: 1%;
     
     
@@ -147,8 +137,8 @@
 
 .div-elemento{
    
-    height: 7%;
-    padding: 7%;
+    height: 1%;
+    padding: 1%;
     border-style:groove;
     box-shadow: -3px -3px 5px black inset;
     
