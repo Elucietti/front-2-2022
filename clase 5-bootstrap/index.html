@@ -3,11 +3,85 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title> clase 28-part 1</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      
+      <!--fila 1-->
+        <div class="row  encabezado borde">
+        
+            <div class="col-6 ">
+
+                      <div>
+                          <p> Encabezado </p>
+
+                          <!--boton inferior izq-->
+                       <div>
+                        <button type="button" class="btn btn-primary btn-sm">logo</button>
+                         
+                      </div>
+                    </div>
+                </div>
+            <div class="col-6">
+                    <div>
+                      <div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                          <button type="button" class="btn btn-primary btn-sm">menu 1</butto>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                          <button type="button" class="btn btn-primary btn-sm">menu 2</butto>
+                        </div>
+                    
+                  </div>
+         </div>
+        </div>
+       <!--fila 2-->
+        <div class="row articulo"> 
+                  
+                      <div class="col-4 borde">
+                      <p>izquierda</p>
+                      </div>
+                      <div class="col-4 borde">
+                        <p>centro</p> 
+                      </div>
+                          <div class="col-4 borde">
+                            derecha
+                          </div>
+                    </div>
+
+                    <!--fila 3-->
+                    <div class="row articulo"> 
+                      <div class="col-7 borde ">
+                        izquierdo 2
+                      </div>
+                      <div class="col-5 borde">
+                        derecho 2
+                      </div>     
+                    </div>
+
+        <!--fila 4-->
+        <div class="row pie borde"> 
+                  <div class="col-6">
+                    <p>pie-de-pag</p>
+                  </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                      <button class="btn btn-primary" type="button">elemento</button>
+                    </div>
+                  
+                  
+                    
+                      
+                      
+        
+        </div>  
+    </div>
+   
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
+

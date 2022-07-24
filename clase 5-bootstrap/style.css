@@ -1,0 +1,24 @@
+.borde{
+border: 2px black solid;
+
+}
+
+.encabezado{
+height: 70px;
+padding: auto;
+
+
+
+}
+
+
+
+
+
+.articulo{
+    margin: 1%;
+    height: 220px;
+    text-align: center;
+}
+
+
