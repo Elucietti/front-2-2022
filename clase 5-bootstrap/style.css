@@ -5,15 +5,37 @@ border: 2px black solid;
 
 .encabezado{
 height: 70px;
-padding: auto;
+background-color: grey; 
 
 
 
 }
+.izquierdo{
+    background-color:rgb(77, 74, 74); 
+}
 
+.centro{
+    background-color:rgb(35, 121, 121); 
+}
 
+.derecho{
+    background-color:rgb(255, 190, 70); 
+}
 
+.izquierdo-2{
+    background-color:rgb(22, 93, 8); 
+}
+.derecho-2{
+    background-color:rgb(209, 74, 21); 
+}
 
+.pie-fondo{
+    background-color:rgb(33, 163, 189); 
+}
+
+.letras{
+    color: white;
+}
 
 .articulo{
     margin: 1%;
