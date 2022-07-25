@@ -1,5 +1,12 @@
 .borde{
 border: 2px black solid;
+   
+
+    border-radius: 5px;              
+    border-radius: 5% 5%;         
+    border-radius: 5px 5px 5px;    
+    border-radius: 5px 5px 5px 5px;  
+  
 
 }
 
