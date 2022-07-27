@@ -1,0 +1,145 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    
+}
+
+.encabezado{
+    flex-direction: row;
+    background-color:rgb(208, 208, 208); 
+   
+    border: 2px black solid ;
+
+}
+
+.menu{
+    
+    
+   
+    
+
+}
+
+.logo{
+    border: 1px black solid;
+    background-color:blue; 
+    width: 100px;
+   margin-left: 1px;
+    color: white;
+
+}
+
+.menu-1{
+    
+    background-color:rgb(12, 207, 12); 
+    width: 300px;
+    margin-left: AUTO;
+   
+   
+    color: white;
+    border: 1px black solid;
+}
+
+.menu-2{
+    background-color:rgb(91, 3, 3); 
+    border: 1px black solid;
+    width:600px;
+    margin-left: AUTO;
+    color: white;
+}
+
+.medio{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:flex-end;
+    color: white;
+
+    
+    margin-top: 1%;
+}
+
+.izq{
+    height: 80%;
+    padding: 12%;
+    border: 3px black solid;
+    background-color:rgb(99, 97, 97);
+    box-shadow: 10px 10px 5px black;
+}
+
+.centro{
+    height: 80%;
+    padding: 12%;
+    border: 3px black solid;
+    background-color: rgb(38, 176, 179);
+    box-shadow: 10px 10px 5px black;
+}
+
+ .dere{
+    height: 80%;
+    padding: 12%;
+    border: 3px black solid;
+    background-color: orange;
+    box-shadow: 10px 10px 5px black;
+}
+
+.centro-inferior{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top: 1%;
+    color: white;
+
+
+}
+
+.izq-2{
+
+    flex-grow: 1 ;
+    background-color: rgb(39, 94, 39);
+    padding: 10%;
+    border: 3px black solid; 
+    margin: auto; 
+    box-shadow: 10px 10px 5px black;
+}
+
+.dere-2{
+
+    flex-grow: 0 ;
+    padding: 10%;
+    background-color: rgb(195, 63, 63);
+    border: 3px black solid;
+    margin: auto;
+    box-shadow: 10px 10px 5px black;
+}
+.pie{
+    display: flex;
+    flex-direction:row;
+  
+    border: 3px black solid;
+   
+    background-color: orange;
+    margin-top: 1%;
+    box-shadow: 10px 10px 5px black;
+    
+}
+.pie-pag{
+
+    height: 30%;
+    padding: 3%;
+    text-align:left;
+}
+
+.elemento{
+
+    
+    background-color:rgb(91, 3, 3); 
+    border: 1px black solid;
+    width:600px;
+    margin-left: AUTO;
+    color: white;
+}
+}
+ 
