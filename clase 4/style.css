@@ -135,11 +135,12 @@
 .elemento{
 
     
-    background-color:rgb(91, 3, 3); 
     border: 1px black solid;
-    width:600px;
-    margin-left: AUTO;
+    background-color:blue; 
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
     color: white;
-}
+
 }
  
