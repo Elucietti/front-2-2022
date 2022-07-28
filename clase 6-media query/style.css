@@ -1,0 +1,35 @@
+header{
+    color: white;
+    background-color: blue;
+}
+
+.main{
+
+    background-color: red;
+}
+
+.sidebar{
+background-color: blue;
+
+}
+
+.footer{
+    background-color: blueviolet;
+}
+.middle-wrapper{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+
+@media only screen and (min-width:660px){
+    .middle-wrapper{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    
+}
