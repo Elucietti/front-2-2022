@@ -21,3 +21,7 @@ p span{
         color:blue;
     }
 
+.titulo:hover{
+background-color: red;
+
+}
