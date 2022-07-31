@@ -1,6 +1,6 @@
 body{
 
-    front:75% verdana,sans-serif;
+    font:75% verdana,sans-serif;
     border: 20px solkid black
 }
 
@@ -12,10 +12,10 @@ div+h2{
         background-color: red;
     }
 
-/* div~h2{ */
+ div~h2{ 
         background-color: orange;
 
-/* }     */
+ }     
 
 p span{
         color:blue;
