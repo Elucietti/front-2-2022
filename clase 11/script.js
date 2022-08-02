@@ -18,7 +18,8 @@ function resultado(){
 
 
 var texto='';  
-var resultado='';  
+var resultado=''; 
+ 
 function myFunction() {  
  var aleatorio=Math.floor(Math.random()*6)+1  
  texto+=aleatorio+" ";  
