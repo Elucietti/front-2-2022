@@ -3,14 +3,8 @@
 
 
 
-let btn_nombre= document.getElementById("btn_nombre");
+let btn_nombre= document.getElementById("btn-enviar");
 btn_nombre.addEventListener("click",  mostrar);
-
-let btn_apellido= document.getElementById("btn_apellido");
-btn_apellido.addEventListener("click",  mostrar);
-
-let btn_edad= document.getElementById("btn_edad");
-btn_edad.addEventListener("click",  mostrar);
 
 
 
