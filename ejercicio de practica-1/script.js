@@ -1,37 +1,20 @@
 "use strict";
 
-let valor=0;
-
-let btn=document.getElementById("btn-enviar");
-valor=document.getElementById("inputNumero");
+let boton=document.getElementById("btn-numero");
+boton.addEventListener("click",comparar);
 
 
-function agregarElemento(){
+function comparar(){
+    let valor = document.getElementById('input');
+    valor = input.value;
+    if (valor>0) {
 
-    if (inputNumero>0) {
+        alert('positivo');
 
-        let listaP=document.getElementById("listaPosi");
-        let elementoP=document.createElement("li");
-        elementoP.innerHTML=inputNumero.value;
-        listaP.appendChild(elementoP);
-        alert(valor); 
-
-        
     } else {
-        
-        let listaN=document.getElementById("listaNega");
-        let elementoN=document.createElement("li");
-        elementoN.innerHTML=inputNumero.value;
-        listaN.appendChild(elementoN);
-        alert(valor); 
-
+     
+        alert('negativo');
     }
-    
+   
 
 }
-
-
-
-
-
-
