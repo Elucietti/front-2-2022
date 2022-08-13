@@ -1,0 +1,56 @@
+header{
+    
+    background-color: orange;
+}
+
+#B{
+
+    background-color: yellow;
+}
+
+.C{
+background-color: violet;
+
+}
+
+.D{
+    background-color: blueviolet;
+}
+
+.middle-wrapper{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+@media only screen and (min-width:660px){
+    .middle-wrapper{
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    header{
+    
+        background-color: green;
+    }
+    
+    #B{
+    
+        background-color: yellow;
+    }
+    
+    .C{
+    background-color: violet;
+    
+    }
+    
+    .D{
+        background-color: orange;
+    }
+    
+
+}
