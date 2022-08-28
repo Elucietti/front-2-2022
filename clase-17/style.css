@@ -1,0 +1,48 @@
+*{
+   
+   
+}
+
+.container-md{
+
+    background-color: red;
+ 
+   
+    
+
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-around;
+    
+}
+
+.formulario-1{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 2%;
+   
+}
+
+
+.formulario-2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2%;
+   
+}
+
+.formulario-3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    
+}
+
