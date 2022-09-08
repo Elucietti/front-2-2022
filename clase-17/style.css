@@ -1,22 +1,43 @@
-*{
-   
-   
-}
+.principal{
 
-.container-md{
-
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    align-items: center;
  
-   
-    
 
 }
 
-.barra{
+.contenedorNav{
+
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     justify-content: space-around;
+    background-color: white;
+  
+  
+
+}
+
+
+.barra1{
+  
+    border: 2px solid black;
+  
+    
+}
+
+.barra2{
+    
+    border: 2px solid black;
+    
+    
+}
+
+.barra3{
+   
+    border: 2px solid black;
+  
     
 }
 
@@ -45,4 +66,24 @@
     margin-bottom: 2%;
     
 }
+
+#listaProductos{
+
+display: flex;
+flex-direction: column;
+margin: 2%;
+width:fit-content;
+
+}
+
+#carta1{
+
+    display: flex;
+}
+
+
+
+
+
+
 
